@@ -1,0 +1,326 @@
+.page{
+    background-color:#8CC461;
+    width: 100vw;
+    height: 100vh;
+}
+.score_area{
+    width: 55vw;
+    height: 20vh;
+    border: solid;
+    border-color: white;
+    border-radius: 13px;
+    margin-top: 90px;
+    margin-left: 40vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.heading{
+    margin-left: 50px;
+    position: absolute;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    size: 25px;
+    line-height: 20px;
+    height: 30px;
+}
+.score{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    line-height: 0px;
+    color:#656565;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.comp_score{
+    width: 100px;
+    height: 110px;
+    background-color: white;
+    margin-left: 70vh;
+    margin-top: 3vh;
+    border-radius: 5px;
+}
+.your_score{
+    width: 100px;
+    height: 110px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 3vh;
+}
+.digit{
+    color: black;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 0px;
+    position: absolute;
+    margin-left: 4vh;
+    margin-top: 3vh;
+}
+.game{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-left: 35vw;
+    gap: 110px;
+    
+}
+.rock{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 100%;
+    border: solid 15px;
+    border-color: #0074B6;
+
+}
+.sissors{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-radius: 100%;
+    border: solid 15px;
+    border-color:#BD00FF;
+}
+.paper{
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    padding-right: 25px;
+    background-color: white;
+    border-radius: 100%;
+    border: solid 15px;
+    border-color:#FFA943;
+    position: absolute;
+    margin-top: 28vh;
+    
+}
+.lines{
+    margin-left: 42vw;
+}
+.line1{
+    position: absolute;
+    width: 111.5px;
+    margin-top: 15vh;
+    margin-left: 2.3vw;
+}
+.line2{
+    position: absolute;
+    margin-top: 23.8vh;
+    margin-left: 8vw;
+}
+.line3{
+    position: absolute;
+    margin-top: 23vh;
+    margin-right: 15vw;
+}
+.rules{
+    margin-left: 75vw;
+    margin-top: 5vh;
+    position: absolute;
+}
+.rule{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    padding-left: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 18px;
+    margin-top: 55vh;
+    margin-left: 85vw;
+    border: solid;
+    border-radius: 8px;
+    border-color: white;
+    background: transparent;
+}
+.btn-rule{
+    background: none;
+    border: none;
+}
+.game-btn{
+    background: none;
+    border: none;
+}
+.result{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-left: 25vw;
+    gap: 110px;
+}
+.status{
+    color: white;
+    font-weight: 800;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+.play-btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    color:#6B6B6B;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.picked{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 26vw;
+    margin-top: 6vh;
+    gap: 28vw;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 10px;
+}
+#next{
+    margin-left: 92vw;
+}
+.additional-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    overflow: hidden;
+
+}
+.additional-content p{
+    color: #FFF;
+    text-align: center;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.56875rem;
+    width: 29rem;
+    height: 4rem;
+    flex-shrink: 0;
+    margin-top: 1rem;
+
+}
+.additional-content h1{
+    color: #FFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    width: 29rem;
+    height: 5.375rem;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+.cup-container {
+    position: relative;
+    text-align: center;
+    height: 40vh;
+    width: 70vw;
+  }
+  
+  .cup {
+    display: inline-block;
+    position: relative;
+    margin-top: 2rem;
+  }
+  
+  .star {
+    position: absolute;
+    top: 50%;
+    left:90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .star1 {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    top: 3%;
+    left: 45%;
+  }
+  
+  .star2 {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    top: 60%;
+    left: 80%;
+  }
+  
+  .star3 {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    top: 0;
+    left: 75%;
+  }
+  
+  .star4 {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px; /* Adjust the size as needed */
+    top: 20%;
+    left: 25%;
+  }
+  
+  .star5 {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    top: 50%;
+    left: 35%;
+  }
+  
+  .star6 {
+    width: 40px; /* Adjust the size as needed */
+    height: 45px; /* Adjust the size as needed */
+    top: 80%;
+    left:30%;
+  }
+  .star7 {
+    width: 20px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    top: 70%;
+    left: 65%;
+  }
+  
+  .star8 {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    top: 40%;
+    left: 70%;
+  }
+  #rule{
+    position: absolute;
+    margin-top: 88vh;
+    margin-left: 90vw;
+  }
+.rules img{
+    position: absolute;
+    margin-bottom: 85vh;
+}
+.win-rule{
+    position: absolute;
+    margin-left: 78vw;
+    margin-top: 40vh;
+}
+.winrules{
+    position: absolute;
+    margin-top: 38vh;
+    margin-left: 78vw;
+}
+

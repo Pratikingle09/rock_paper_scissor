@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK-PAPER-SCISSOR</title>
+  </head>
+  <body class="page">
+    <div class="score_area">
+      <div class="heading">
+        <h1>ROCK</h1>
+        <h1>PAPER</h1>
+        <h1>SCISSORS</h1>
+      </div>
+      <div class="score">
+        <div class="comp_score">
+          <p>COMPUTER</p>
+          <p>SCORE</p>
+          <p class="digit" id="comp">0</p>
+        </div>
+        <div class="your_score">
+          <p>YOUR</p>
+          <p>SCORE</p>
+          <p class="digit" id="your">0</p>
+        </div>
+      </div>
+    </div>
+    <div class="game" id="game">
+      <div class="rock"><button class="game-btn" id="rock"><img src="rock.svg" alt="ROCK"></button></div>
+      <div class="sissors"><button class="game-btn" id="sissors">&nbsp;&nbsp;<img src="sissors.svg" alt="SCISSORS"></button></div>
+      <div class="paper"><button class="game-btn" id="paper"><img src="paper.svg" alt="PAPER"></button></div>
+
+    </div>
+    <div class="lines" id="line">
+      <img class="line1" src="Line 1.svg" alt="line 1">
+      <img class="line3" src="Line 3.svg" alt="line 3">
+      <img class="line2" src="Line 2.svg" alt="line 2">
+    </div>
+    <div class="picked" id="picked" >
+      <div><p>YOU PICKED</p></div>
+      <div><p>PC PICKED</p></div>
+    </div>
+    <div class="result" id="result">
+      <div class="your_selsected">
+        <div class="rock option" id="person-score">
+          <img  src=" " alt="">
+        </div></div>
+      <div class="status">
+        <h1>YOU WIN</h1>
+        <h3>AGAINST PC</h3>
+        <button class="play-btn" onclick="replay()">PLAY AGAIN</button>
+      </div>
+      <div class="pc_selected">
+        <div class="rock option" id="comp-score"><img src=" " alt=""></button></div>
+      </div>
+    </div>
+    <div class="rules" id="rule">
+      <button class="btn-rule" onclick="hideRules()">
+      <img src="Group 4.svg" alt="rules"></button>
+    </div>
+    <button class="rule"  onclick="showRules()">RULES</button>
+    <button class="rule"  id="next" onclick="win()">NEXT</button>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </body>
+</html>
